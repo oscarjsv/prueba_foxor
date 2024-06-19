@@ -94,4 +94,4 @@ Relaciones
 Cada propiedad tiene un único propietario.
 
 Ejemplo de Diagrama
-Incluir diagrama del modelo relacional aquí.
+![Texto alternativo](url-de-la-imagen "Título opcional")
