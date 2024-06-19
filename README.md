@@ -16,10 +16,11 @@ Función que elimina todas las vocales de un string.
 ```python
 def eliminar_vocales(s):
     return ''.join([c for c in s if c.lower() not in 'aeiou'])
-```
 
 string = "Hello, World!"
 print(eliminar_vocales(string))  # Hll, Wrld!
+```
+
 ### 2. Consumo de la API OMDb con Django
 Descripción
 API Django que consume la API OMDb para agrupar películas por año y actor.
