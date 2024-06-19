@@ -57,7 +57,7 @@ curl "http://127.0.0.1:8000/movies-by-year-and-actor?query=Batman"
 Ejemplo de respuesta:
 
 JSON
-
+```
 {
   "2022": {
     "Robert Pattinson": 1,
@@ -70,7 +70,8 @@ JSON
     "Liam Neeson": 1
   }
 }
-AI-generated code. Review and use carefully. More info on FAQ.
+```
+
 3. Opciones de Escalabilidad para una Base de Datos
 Descripción
 Opciones de software para aumentar el rendimiento de una base de datos.
