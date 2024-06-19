@@ -20,8 +20,7 @@ def eliminar_vocales(s):
 
 string = "Hello, World!"
 print(eliminar_vocales(string))  # Hll, Wrld!
-
-2. Consumo de la API OMDb con Django
+### 2. Consumo de la API OMDb con Django
 Descripción
 API Django que consume la API OMDb para agrupar películas por año y actor.
 
