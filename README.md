@@ -71,14 +71,17 @@ JSON
 ```
 
 ### 3. Opciones de Escalabilidad para una Base de Datos
-Descripción
-Opciones de software para aumentar el rendimiento de una base de datos.
+#### Índices Eficientes:
+- Utilizar índices adecuados en las columnas que se consultan frecuentemente para mejorar la velocidad de las consultas.
 
-Opciones:
-Escalabilidad Vertical: Mejorar hardware del servidor.
-Escalabilidad Horizontal: Distribuir carga entre servidores.
-Caché: Reducir carga con soluciones de caché.
-Optimización de Consultas: Mejorar estructura y tiempo de ejecución.
+#### Optimización de Consultas:
+- Revisar y optimizar las consultas SQL para reducir el tiempo de respuesta y el uso de recursos.
+
+#### Caching:
+- Implementar una capa de caché (como Redis o Memcached) para almacenar resultados de consultas frecuentes y reducir la carga en la base de datos.
+
+#### Optimización de Esquema:
+- Diseñar y mantener un esquema de base de datos optimizado, eliminando redundancias y estructuras innecesarias que puedan afectar el rendimiento.
 
 ### 4. Diseño de Modelo Relacional para un Sistema de Compra y Venta de Inmuebles
 Descripción
