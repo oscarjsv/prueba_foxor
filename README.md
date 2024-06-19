@@ -94,4 +94,4 @@ Relaciones
 Cada propiedad tiene un único propietario.
 
 Ejemplo de Diagrama
-![Texto alternativo](url-de-la-imagen "Título opcional")
+![Texto alternativo](https://raw.githubusercontent.com/oscarjsv/prueba_foxor/main/diagram.png "Diagrama")
