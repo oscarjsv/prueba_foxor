@@ -1,0 +1,33 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+
+# Django
+*.log
+*.pot
+*.pyc
+.DS_Store
+db.sqlite3
+media
+*.sqlite3
+
+# Environments
+.env
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
