@@ -7,12 +7,12 @@ Implementa una función en tu lenguaje de programación preferido que, dado un s
 
 ### Ejemplo de Código
 ```python
-def eliminar_vocales(s):
-    return ''.join([c for c in s if c.lower() not in 'aeiou'])
+    def eliminar_vocales(s):
+        return ''.join([c for c in s if c.lower() not in 'aeiou'])
 
-# Ejemplo de uso de la función:
-string = "Hello, World!"
-print(eliminar_vocales(string))  # Hll, Wrld!
+    # Ejemplo de uso de la función:
+    string = "Hello, World!"
+    print(eliminar_vocales(string))  # Hll, Wrld!
 
 2. Consumo de la API OMDb con Django
 Descripción
