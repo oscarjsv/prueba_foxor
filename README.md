@@ -71,7 +71,7 @@ JSON
 }
 ```
 
-3. Opciones de Escalabilidad para una Base de Datos
+### 3. Opciones de Escalabilidad para una Base de Datos
 Descripción
 Opciones de software para aumentar el rendimiento de una base de datos.
 
@@ -80,7 +80,8 @@ Escalabilidad Vertical: Mejorar hardware del servidor.
 Escalabilidad Horizontal: Distribuir carga entre servidores.
 Caché: Reducir carga con soluciones de caché.
 Optimización de Consultas: Mejorar estructura y tiempo de ejecución.
-4. Diseño de Modelo Relacional para un Sistema de Compra y Venta de Inmuebles
+
+### 4. Diseño de Modelo Relacional para un Sistema de Compra y Venta de Inmuebles
 Descripción
 Modelo relacional para un sistema inmobiliario.
 
