@@ -37,7 +37,7 @@ API Django que consume la API OMDb para agrupar películas por año y actor.
 - source venv/bin/activate  # Windows: `venv\Scripts\activate`
 - pip install -r requirements.txt
 
-## Crear archivo .env con tu clave API:
+## Crear archivo .env en la carpeta raiz con tu clave API:
 
 1. API_KEY=tu_clave_de_api_omdb
 
