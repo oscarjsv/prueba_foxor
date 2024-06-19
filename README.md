@@ -29,9 +29,8 @@ API Django que consume la API OMDb para agrupar películas por año y actor.
 - Python 3.7+
 - pip
 - venv (opcional)
-- Configuración
+## Configuración
 - Clonar y configurar el proyecto:
-
 - git clone https://github.com/your-username/movie-grouping-api.git
 - cd movie-grouping-api
 - python -m venv venv
@@ -44,7 +43,7 @@ API Django que consume la API OMDb para agrupar películas por año y actor.
 
 #### Ejecutar servidor:
 
-python manage.py runserver
+- python manage.py runserver
 
 Endpoints
 URL: /api/movies
