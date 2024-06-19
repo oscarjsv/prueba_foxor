@@ -24,12 +24,12 @@ print(eliminar_vocales(string))  # Hll, Wrld!
 Descripción
 API Django que consume la API OMDb para agrupar películas por año y actor.
 
-#Requisitos Previos
--Python 3.7+
--pip
--venv (opcional)
--Configuración
--Clonar y configurar el proyecto:
+# Requisitos Previos
+- Python 3.7+
+pip
+venv (opcional)
+Configuración
+Clonar y configurar el proyecto:
 
 git clone https://github.com/your-username/movie-grouping-api.git
 cd movie-grouping-api
