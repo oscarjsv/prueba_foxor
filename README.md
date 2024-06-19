@@ -95,3 +95,43 @@ Cada propiedad tiene un único propietario.
 
 Ejemplo de Diagrama
 ![Texto alternativo](https://raw.githubusercontent.com/oscarjsv/prueba_foxor/main/diagram.png "Diagrama")
+
+#### Esquema sql
+```sql
+-- Tabla de Roles
+CREATE TABLE Rol (
+    RolID INT PRIMARY KEY,
+    NombreRol VARCHAR(50) NOT NULL
+);
+
+-- Tabla de Usuarios
+CREATE TABLE Usuario (
+    UsuarioID INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    CorreoElectronico VARCHAR(255) NOT NULL,
+    RolID INT,
+    FOREIGN KEY (RolID) REFERENCES Rol(RolID)
+);
+
+-- Tabla de Inmuebles
+CREATE TABLE Inmueble (
+    InmuebleID INT PRIMARY KEY,
+    TipoInmueble VARCHAR(50) NOT NULL,
+    Direccion VARCHAR(255) NOT NULL,
+    Precio DECIMAL(10, 2) NOT NULL,
+    PropietarioID INT NOT NULL,
+    FOREIGN KEY (PropietarioID) REFERENCES Usuario(UsuarioID)
+);
+
+-- Tabla de Vendedores
+CREATE TABLE Vendedor (
+    VendedorID INT PRIMARY KEY,
+    FOREIGN KEY (VendedorID) REFERENCES Usuario(UsuarioID)
+);
+
+-- Tabla de Compradores
+CREATE TABLE Comprador (
+    CompradorID INT PRIMARY KEY,
+    FOREIGN KEY (CompradorID) REFERENCES Usuario(UsuarioID)
+);
+```
