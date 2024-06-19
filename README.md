@@ -105,14 +105,6 @@ Modelo relacional para un sistema inmobiliario.
 5. **Tabla `Comprador`**:
    - Relaciona a los usuarios que actúan como compradores en el sistema. La clave primaria `CompradorID` también es una clave foránea que referencia `UsuarioID` en la tabla `Usuario`.
 
-### Consideraciones adicionales:
-
-- **Relaciones y Restricciones**: Las claves foráneas aseguran la integridad referencial entre las tablas `Usuario`, `Vendedor`, `Comprador` e `Inmueble`, garantizando que cada entidad esté correctamente relacionada y que no haya referencias huérfanas.
-
-- **Tipos de Datos**: Los tipos de datos (`INT`, `VARCHAR`, `DECIMAL`) pueden ajustarse según las necesidades específicas de tu aplicación y la base de datos que estés utilizando.
-
-Este esquema proporciona una base sólida para implementar el modelo relacional descrito anteriormente en un sistema de gestión de compra y venta de inmuebles, asegurando la correcta gestión de roles, propiedades e interacciones entre usuarios y propiedades.
-
 
 Ejemplo de Diagrama
 ![Texto alternativo](https://raw.githubusercontent.com/oscarjsv/prueba_foxor/main/diagram.png "Diagrama")
