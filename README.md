@@ -87,11 +87,32 @@ JSON
 Descripción
 Modelo relacional para un sistema inmobiliario.
 
-Modelo Relacional
-Incluye entidades como usuarios, propiedades, roles y permisos.
 
-Relaciones
-Cada propiedad tiene un único propietario.
+### Explicación:
+
+1. **Tabla `Rol`**:
+   - Almacena los roles disponibles en el sistema, identificados por `RolID`.
+
+2. **Tabla `Usuario`**:
+   - Contiene la información básica de cada usuario del sistema, como su nombre, correo electrónico y `RolID` que indica el rol que desempeña.
+
+3. **Tabla `Inmueble`**:
+   - Representa los inmuebles disponibles para la compra y venta, con detalles como tipo de inmueble, dirección, precio y `PropietarioID` que indica el propietario del inmueble.
+
+4. **Tabla `Vendedor`**:
+   - Relaciona a los usuarios que actúan como vendedores en el sistema. La clave primaria `VendedorID` es al mismo tiempo una clave foránea que referencia `UsuarioID` en la tabla `Usuario`.
+
+5. **Tabla `Comprador`**:
+   - Relaciona a los usuarios que actúan como compradores en el sistema. La clave primaria `CompradorID` también es una clave foránea que referencia `UsuarioID` en la tabla `Usuario`.
+
+### Consideraciones adicionales:
+
+- **Relaciones y Restricciones**: Las claves foráneas aseguran la integridad referencial entre las tablas `Usuario`, `Vendedor`, `Comprador` e `Inmueble`, garantizando que cada entidad esté correctamente relacionada y que no haya referencias huérfanas.
+
+- **Tipos de Datos**: Los tipos de datos (`INT`, `VARCHAR`, `DECIMAL`) pueden ajustarse según las necesidades específicas de tu aplicación y la base de datos que estés utilizando.
+
+Este esquema proporciona una base sólida para implementar el modelo relacional descrito anteriormente en un sistema de gestión de compra y venta de inmuebles, asegurando la correcta gestión de roles, propiedades e interacciones entre usuarios y propiedades.
+
 
 Ejemplo de Diagrama
 ![Texto alternativo](https://raw.githubusercontent.com/oscarjsv/prueba_foxor/main/diagram.png "Diagrama")
