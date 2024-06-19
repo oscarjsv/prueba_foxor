@@ -53,8 +53,8 @@ Ejemplo de Solicitud:
 curl "http://127.0.0.1:8000/movies-by-year-and-actor?query=Batman"
 
 Ejemplo de Respuesta:
-JSON
 
+JSON
 {
     "2022": {
         "Robert Pattinson": 1,
